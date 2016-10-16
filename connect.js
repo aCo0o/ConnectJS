@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-//var db = require('mysql');
+var db = require('mysql');
 
 module.exports = {
 	
