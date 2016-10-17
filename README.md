@@ -8,7 +8,7 @@ Connect to MongoDB &amp; MySql with Node.js
     var app 		= express();
 
     Connect.toMongoDB();
-    Connect.toMongoSQL();
+    Connect.toMySQL();
 
     app.get('/', function (req, res) {	
        return res.sendFile('./public/html/index.html', {"root": __dirname})
