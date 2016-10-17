@@ -15,7 +15,7 @@ module.exports = {
 			console.log('Ansuten till DB -', db.name);
 		});
 	},
-	toSqlDB: function () {
+	toMySQL: function () {
 
 		// MySQL
 		var connection = mysql.createConnection({
